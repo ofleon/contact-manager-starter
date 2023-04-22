@@ -1,0 +1,14 @@
+C:\Users\maria\source\repos\contact-manager-starter\ContactManagerStarter.Provider\bin\Debug\net7.0\ContactManagerStarter.Provider.deps.json
+C:\Users\maria\source\repos\contact-manager-starter\ContactManagerStarter.Provider\bin\Debug\net7.0\ContactManagerStarter.Provider.runtimeconfig.json
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\bin\Debug\net7.0\ContactManagerStarter.Provider.dll
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\bin\Debug\net7.0\ContactManagerStarter.Provider.pdb
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.csproj.AssemblyReference.cache
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.AssemblyInfoInputs.cache
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.AssemblyInfo.cs
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.csproj.CoreCompileInputs.cache
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.dll
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\refint\ContactManagerStarter.Provider.dll
+C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.pdb
+C:\Users\maria\source\repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ContactManagerStarter.Provider.genruntimeconfig.cache
+C:\Users\maria\source\repos\contact-manager-starter\ContactManagerStarter.Provider\obj\Debug\net7.0\ref\ContactManagerStarter.Provider.dll

@@ -33,7 +33,9 @@ $(function () {
     $(document).on("click", "#addNewEmail", function () {
         let emailAddress = $('#newEmailAddress').val();
         let emailAddressType = $('#newEmailAddressType').val();
+        let isPrimary = $('#newEmailPrimary').is(":checked");
         let emailTypeClass;
+        let primaryValue;
 
         if (emailAddressType === "Personal") {
             emailTypeClass = "badge-primary"; //blue badge
@@ -41,13 +43,21 @@ $(function () {
             emailTypeClass = "badge-success"; //green badge
         }
 
+        // handling checkbox checked value
+        if (isPrimary === true) {
+            primaryValue = '<span class="badge badge-primary m-l-10">Primary</span>';
+        } else {
+            primaryValue = "";
+        }
+
         if (validateEmail(emailAddress)) {
-                  $("#emailList").append(
-            '<li class="list-group-item emailListItem" data-email="' + emailAddress + '" data-type="' + emailAddressType + '">' +
-            '<span class="badge ' + emailTypeClass + ' m-l-10">' + emailAddressType + '</span>' +
-            '<span class="m-l-20">' + emailAddress + ' </span>' +
-            '<a class="redText pointer float-right removeEmail" title="Delete Email">X</a>' +
-            '</li>');
+            $("#emailList").append(
+                '<li class="list-group-item emailListItem" data-email="' + emailAddress + '" data-type="' + emailAddressType + '" data-primary="' + isPrimary + '">' +
+                primaryValue +
+                '<span class="badge ' + emailTypeClass + ' m-l-10">' + emailAddressType + '</span>' +
+                '<span class="m-l-20">' + emailAddress + ' </span>' +
+                '<a class="redText pointer float-right removeEmail" title="Delete Email">X</a>' +
+                '</li>');
             $('#newEmailAddress').val("");  
             $('#newEmailAddress').removeClass("invalidInput");
             $('#invalidEmailFeedback').hide();
@@ -113,6 +123,7 @@ $(function () {
             return $(".emailListItem").map(function () {
                 return {
                     Email: $(this).data("email"),
+                    IsPrimary: $(this).data("primary"),
                     Type: $(this).data("type")
                 }
             }).get();

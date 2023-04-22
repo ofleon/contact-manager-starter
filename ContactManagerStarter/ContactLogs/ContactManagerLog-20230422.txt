@@ -1,0 +1,1035 @@
+2023-04-22T13:06:43.4353609-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:06:43.9066840-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:06:43.9069891-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:06:43.9264109-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:06:43.9267118-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:06:43.9267689-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:06:44.5180957-04:00 0HMQ3AFPFK3FN:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:06:44.5718664-04:00 0HMQ3AFPFK3FN:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:06:44.5956655-04:00 0HMQ3AFPFK3FN:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:06:44.6070147-04:00 0HMQ3AFPFK3FN:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:06:44.8019832-04:00 0HMQ3AFPFK3FN:00000001 [INF] Executed ViewResult - view "Index" executed in 197.7549ms. (f66409e9)
+2023-04-22T13:06:44.8054414-04:00 0HMQ3AFPFK3FN:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 209.1881ms (afa2e885)
+2023-04-22T13:06:44.8058508-04:00 0HMQ3AFPFK3FN:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:06:44.8333199-04:00 0HMQ3AFPFK3FN:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 317.7289ms (791a596a)
+2023-04-22T13:06:44.8581459-04:00 0HMQ3AFPFK3FN:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:06:44.8718521-04:00 0HMQ3AFPFK3FN:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 13.6102ms (791a596a)
+2023-04-22T13:06:44.8981539-04:00 0HMQ3AFPFK3FN:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:06:44.9367414-04:00 0HMQ3AFPFK3FN:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5744ms (791a596a)
+2023-04-22T13:06:46.2417436-04:00 0HMQ3AFPFK3FN:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:06:46.2452525-04:00 0HMQ3AFPFK3FN:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:06:46.2473106-04:00 0HMQ3AFPFK3FN:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:06:46.3700837-04:00 0HMQ3AFPFK3FN:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:06:46.3809965-04:00 0HMQ3AFPFK3FN:00000007 [INF] Executed ViewResult - view "Index" executed in 11.7541ms. (f66409e9)
+2023-04-22T13:06:46.3811872-04:00 0HMQ3AFPFK3FN:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 133.8316ms (afa2e885)
+2023-04-22T13:06:46.3812131-04:00 0HMQ3AFPFK3FN:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:06:46.3833135-04:00 0HMQ3AFPFK3FN:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 141.5985ms (791a596a)
+2023-04-22T13:06:46.3939198-04:00 0HMQ3AFPFK3FN:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:06:46.3951670-04:00 0HMQ3AFPFK3FN:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:06:46.3961351-04:00 0HMQ3AFPFK3FN:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:06:46.3975469-04:00 0HMQ3AFPFK3FN:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.3596ms (791a596a)
+2023-04-22T13:06:46.4316479-04:00 0HMQ3AFPFK3FN:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.4111ms (791a596a)
+2023-04-22T13:06:46.4340086-04:00 0HMQ3AFPFK3FN:00000009 [INF] The file "/js/ContactTable.js" was not modified (f1f8d725)
+2023-04-22T13:06:46.4346140-04:00 0HMQ3AFPFK3FN:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 40.6397ms (791a596a)
+2023-04-22T13:06:46.4540757-04:00 0HMQ3AFPFK3FN:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:06:46.4552397-04:00 0HMQ3AFPFK3FN:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:06:46.4565663-04:00 0HMQ3AFPFK3FN:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:06:46.4568469-04:00 0HMQ3AFPFK3FN:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:06:46.4634976-04:00 0HMQ3AFPFK3FN:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:06:46.4673238-04:00 0HMQ3AFPFK3FN:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:06:46.4674670-04:00 0HMQ3AFPFK3FN:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 10.8805ms (791a596a)
+2023-04-22T13:06:46.4788414-04:00 0HMQ3AFPFK3FN:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=J-8RoAQZJ8Fb2SsjVxCoyA - - (ca22a1cb)
+2023-04-22T13:06:46.4790026-04:00 0HMQ3AFPFK3FN:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:06:47.5990489-04:00 0HMQ3AFPFK3FN:0000000F [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:06:47.6899973-04:00 0HMQ3AFPFK3FN:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:06:47.7404646-04:00 0HMQ3AFPFK3FN:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 51.1106ms. (6f83ade2)
+2023-04-22T13:06:47.7405992-04:00 0HMQ3AFPFK3FN:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1277.0422ms (afa2e885)
+2023-04-22T13:06:47.7406232-04:00 0HMQ3AFPFK3FN:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:06:47.7457571-04:00 0HMQ3AFPFK3FN:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1291.6747ms (791a596a)
+2023-04-22T13:06:50.1715870-04:00 0HMQ3AFPFK3FN:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=8f9bd6e7-1491-4776-f9dd-08db433b197d application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:06:50.1733521-04:00 0HMQ3AFPFK3FN:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:06:50.1868572-04:00 0HMQ3AFPFK3FN:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:06:50.2300804-04:00 0HMQ3AFPFK3FN:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:06:50.2814115-04:00 0HMQ3AFPFK3FN:00000015 [INF] Executed DbCommand ("37"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:06:50.2882810-04:00 0HMQ3AFPFK3FN:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:06:50.3524108-04:00 0HMQ3AFPFK3FN:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 65.2204ms. (6f83ade2)
+2023-04-22T13:06:50.3525148-04:00 0HMQ3AFPFK3FN:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 165.6195ms (afa2e885)
+2023-04-22T13:06:50.3525410-04:00 0HMQ3AFPFK3FN:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:06:50.3532157-04:00 0HMQ3AFPFK3FN:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=8f9bd6e7-1491-4776-f9dd-08db433b197d application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 181.5742ms (791a596a)
+2023-04-22T13:07:22.2567996-04:00 0HMQ3AFPFK3FN:00000017 [INF] Request starting HTTP/2 POST https://localhost:7276/Contacts/SaveContact application/json;+charset=UTF-8 286 (ca22a1cb)
+2023-04-22T13:07:22.2570235-04:00 0HMQ3AFPFK3FN:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.SaveContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:07:22.2621678-04:00 0HMQ3AFPFK3FN:00000017 [INF] Route matched with "{action = \"SaveContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveContact(ContactManager.Models.SaveContactViewModel)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:07:22.5131758-04:00 0HMQ3AFPFK3FN:00000017 [INF] Executed DbCommand ("21"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:07:22.6439595-04:00 0HMQ3AFPFK3FN:00000017 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [EmailAddresses]
+OUTPUT 1
+WHERE [Id] = @p0;" (0723d8ff)
+2023-04-22T13:07:22.7443826-04:00 0HMQ3AFPFK3FN:00000017 [INF] Executed DbCommand ("10"ms) [Parameters=["@p4='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='600']"
+""SET NOCOUNT ON;
+UPDATE [Contacts] SET [DOB] = @p0, [FirstName] = @p1, [LastName] = @p2, [Title] = @p3
+OUTPUT 1
+WHERE [Id] = @p4;
+INSERT INTO [EmailAddresses] ([Id], [ContactId], [Email], [IsPrimary], [Type])
+VALUES (@p5, @p6, @p7, @p8, @p9),
+(@p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2023-04-22T13:07:22.7645539-04:00 0HMQ3AFPFK3FN:00000017 [INF] Contact updated sucessfully (e84dab65)
+2023-04-22T13:07:22.7738003-04:00 0HMQ3AFPFK3FN:00000019 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:07:22.7741330-04:00 0HMQ3AFPFK3FN:00000019 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:07:22.7743648-04:00 0HMQ3AFPFK3FN:00000019 [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:07:22.7868955-04:00 0HMQ3AFPFK3FN:00000019 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:07:22.7881899-04:00 0HMQ3AFPFK3FN:00000019 [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:07:22.7886538-04:00 0HMQ3AFPFK3FN:00000019 [INF] Executed PartialViewResult - view "_ContactTable" executed in 0.8551ms. (6f83ade2)
+2023-04-22T13:07:22.7886964-04:00 0HMQ3AFPFK3FN:00000019 [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 14.2312ms (afa2e885)
+2023-04-22T13:07:22.7887282-04:00 0HMQ3AFPFK3FN:00000019 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:07:22.7888774-04:00 0HMQ3AFPFK3FN:00000019 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 15.0477ms (791a596a)
+2023-04-22T13:07:24.9575922-04:00 0HMQ3AFPFK3FN:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.SaveContact (ContactManagerStarter)" in 2695.3725ms (afa2e885)
+2023-04-22T13:07:24.9580705-04:00 0HMQ3AFPFK3FN:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.SaveContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:07:24.9913466-04:00 0HMQ3AFPFK3FN:00000017 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End(IAsyncResult asyncResult)
+   at MailKit.Net.SocketUtils.Connect(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.Connect(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetwork(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken)
+   at ContactManager.Controllers.ContactsController.SendEmailNotification(Guid contactId) in C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\Controllers\ContactsController.cs:line 197
+   at ContactManager.Controllers.ContactsController.SaveContact(SaveContactViewModel model) in C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\Controllers\ContactsController.cs:line 175
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-04-22T13:07:25.0053086-04:00 0HMQ3AFPFK3FN:00000017 [INF] Request finished HTTP/2 POST https://localhost:7276/Contacts/SaveContact application/json;+charset=UTF-8 286 - 500 - text/plain;+charset=utf-8 2748.5091ms (791a596a)
+2023-04-22T13:07:31.7490728-04:00 0HMQ3AFPFK3FN:0000001B [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=8f9bd6e7-1491-4776-f9dd-08db433b197d application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:07:31.7492854-04:00 0HMQ3AFPFK3FN:0000001B [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:07:31.7493906-04:00 0HMQ3AFPFK3FN:0000001B [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:07:31.7531250-04:00 0HMQ3AFPFK3FN:0000001B [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:07:31.7545311-04:00 0HMQ3AFPFK3FN:0000001B [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:07:31.7560211-04:00 0HMQ3AFPFK3FN:0000001B [INF] Executed PartialViewResult - view "_EditContact" executed in 1.5285ms. (6f83ade2)
+2023-04-22T13:07:31.7561064-04:00 0HMQ3AFPFK3FN:0000001B [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 6.6938ms (afa2e885)
+2023-04-22T13:07:31.7561258-04:00 0HMQ3AFPFK3FN:0000001B [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:07:31.7562733-04:00 0HMQ3AFPFK3FN:0000001B [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=8f9bd6e7-1491-4776-f9dd-08db433b197d application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 7.2331ms (791a596a)
+2023-04-22T13:10:30.5403112-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:10:30.7532675-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:10:30.7534331-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:10:30.7552477-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:10:30.7553750-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:10:30.7553962-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:10:32.1766019-04:00 0HMQ3AHT4048V:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:10:32.3441842-04:00 0HMQ3AHT4048V:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:10:32.4218048-04:00 0HMQ3AHT4048V:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:10:32.4655635-04:00 0HMQ3AHT4048V:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:10:32.8218240-04:00 0HMQ3AHT4048V:00000001 [INF] Executed ViewResult - view "Index" executed in 378.0735ms. (f66409e9)
+2023-04-22T13:10:32.8268977-04:00 0HMQ3AHT4048V:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 402.9502ms (afa2e885)
+2023-04-22T13:10:32.8275789-04:00 0HMQ3AHT4048V:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:10:32.8734317-04:00 0HMQ3AHT4048V:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 699.6651ms (791a596a)
+2023-04-22T13:10:32.8985935-04:00 0HMQ3AHT4048V:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - (ca22a1cb)
+2023-04-22T13:10:32.8986180-04:00 0HMQ3AHT4048V:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - - (ca22a1cb)
+2023-04-22T13:10:32.8986688-04:00 0HMQ3AHT4048V:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - (ca22a1cb)
+2023-04-22T13:10:32.8987507-04:00 0HMQ3AHT4048V:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - (ca22a1cb)
+2023-04-22T13:10:32.8989047-04:00 0HMQ3AHT4048V:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - - (ca22a1cb)
+2023-04-22T13:10:32.8991108-04:00 0HMQ3AHT4048V:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - (ca22a1cb)
+2023-04-22T13:10:32.9403168-04:00 0HMQ3AHT4048V:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - (ca22a1cb)
+2023-04-22T13:10:32.9535345-04:00 0HMQ3AHT4048V:00000011 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:10:32.9955994-04:00 0HMQ3AHT4048V:00000013 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:10:32.9982657-04:00 0HMQ3AHT4048V:00000011 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 44.7040ms (791a596a)
+2023-04-22T13:10:33.0033849-04:00 0HMQ3AHT4048V:00000005 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\css\site.css"' (27b0a520)
+2023-04-22T13:10:33.0037539-04:00 0HMQ3AHT4048V:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 200 2062 text/css 105.1485ms (791a596a)
+2023-04-22T13:10:33.0049920-04:00 0HMQ3AHT4048V:00000007 [INF] Sending file. Request path: '"/css/themify-icons.css"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\css\themify-icons.css"' (27b0a520)
+2023-04-22T13:10:33.0049920-04:00 0HMQ3AHT4048V:0000000F [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\site.js"' (27b0a520)
+2023-04-22T13:10:33.0051559-04:00 0HMQ3AHT4048V:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 200 17531 text/css 106.1976ms (791a596a)
+2023-04-22T13:10:33.0051705-04:00 0HMQ3AHT4048V:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 95.1222ms (791a596a)
+2023-04-22T13:10:33.0145319-04:00 0HMQ3AHT4048V:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2023-04-22T13:10:33.0147087-04:00 0HMQ3AHT4048V:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 200 207393 text/css 116.2457ms (791a596a)
+2023-04-22T13:10:33.0386261-04:00 0HMQ3AHT4048V:0000000D [INF] Sending file. Request path: '"/lib/signalr/dist/browser/signalr.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\signalr\dist\browser\signalr.js"' (27b0a520)
+2023-04-22T13:10:33.0392281-04:00 0HMQ3AHT4048V:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 200 229992 text/javascript 139.8829ms (791a596a)
+2023-04-22T13:10:33.0401307-04:00 0HMQ3AHT4048V:0000000B [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js"' (27b0a520)
+2023-04-22T13:10:33.0404333-04:00 0HMQ3AHT4048V:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 235114 text/javascript 141.5706ms (791a596a)
+2023-04-22T13:10:33.0528433-04:00 0HMQ3AHT4048V:00000009 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2023-04-22T13:10:33.0533091-04:00 0HMQ3AHT4048V:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 200 282115 text/javascript 154.5591ms (791a596a)
+2023-04-22T13:10:33.1002429-04:00 0HMQ3AHT4048V:00000013 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.6031ms (791a596a)
+2023-04-22T13:10:33.1641387-04:00 0HMQ3AHT4048V:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/favicon.ico - - (ca22a1cb)
+2023-04-22T13:10:33.1690428-04:00 0HMQ3AHT4048V:00000015 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\favicon.ico"' (27b0a520)
+2023-04-22T13:10:33.1693904-04:00 0HMQ3AHT4048V:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/favicon.ico - - - 200 5430 image/x-icon 5.1867ms (791a596a)
+2023-04-22T13:10:34.4179752-04:00 0HMQ3AHT4048V:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:10:34.4216639-04:00 0HMQ3AHT4048V:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:10:34.4235996-04:00 0HMQ3AHT4048V:00000017 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:10:34.6714570-04:00 0HMQ3AHT4048V:00000017 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:10:34.6855281-04:00 0HMQ3AHT4048V:00000017 [INF] Executed ViewResult - view "Index" executed in 14.8338ms. (f66409e9)
+2023-04-22T13:10:34.6857288-04:00 0HMQ3AHT4048V:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 262.0968ms (afa2e885)
+2023-04-22T13:10:34.6857557-04:00 0HMQ3AHT4048V:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:10:34.6937571-04:00 0HMQ3AHT4048V:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 275.8425ms (791a596a)
+2023-04-22T13:10:34.7108547-04:00 0HMQ3AHT4048V:0000001B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:10:34.7108958-04:00 0HMQ3AHT4048V:00000019 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:10:34.7141943-04:00 0HMQ3AHT4048V:00000019 [INF] Sending file. Request path: '"/js/ContactTable.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\ContactTable.js"' (27b0a520)
+2023-04-22T13:10:34.7144221-04:00 0HMQ3AHT4048V:0000001D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:10:34.7144230-04:00 0HMQ3AHT4048V:00000019 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 9784 text/javascript 3.5189ms (791a596a)
+2023-04-22T13:10:34.7167989-04:00 0HMQ3AHT4048V:0000001D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.2996ms (791a596a)
+2023-04-22T13:10:34.7818816-04:00 0HMQ3AHT4048V:0000001F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:10:34.7860022-04:00 0HMQ3AHT4048V:00000021 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:10:34.7883435-04:00 0HMQ3AHT4048V:00000021 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:10:34.7892561-04:00 0HMQ3AHT4048V:0000001F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:10:34.8155861-04:00 0HMQ3AHT4048V:0000001B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.7326ms (791a596a)
+2023-04-22T13:10:34.8231388-04:00 0HMQ3AHT4048V:00000021 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:10:34.8232949-04:00 0HMQ3AHT4048V:00000021 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 37.2733ms (791a596a)
+2023-04-22T13:10:34.8255870-04:00 0HMQ3AHT4048V:0000001F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:10:34.8313268-04:00 0HMQ3AHT4048V:00000023 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=PFeyE57dpGi-7RkgXuBZdw - - (ca22a1cb)
+2023-04-22T13:10:34.8315060-04:00 0HMQ3AHT4048V:00000023 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:10:36.1474116-04:00 0HMQ3AHT4048V:0000001F [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:10:36.2287668-04:00 0HMQ3AHT4048V:0000001F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:10:36.2775859-04:00 0HMQ3AHT4048V:0000001F [INF] Executed PartialViewResult - view "_ContactTable" executed in 49.2914ms. (6f83ade2)
+2023-04-22T13:10:36.2777128-04:00 0HMQ3AHT4048V:0000001F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1452.0846ms (afa2e885)
+2023-04-22T13:10:36.2777411-04:00 0HMQ3AHT4048V:0000001F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:10:36.2828058-04:00 0HMQ3AHT4048V:0000001F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1500.8804ms (791a596a)
+2023-04-22T13:10:38.0335357-04:00 0HMQ3AHT4048V:00000025 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:10:38.0348697-04:00 0HMQ3AHT4048V:00000025 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:10:38.0463229-04:00 0HMQ3AHT4048V:00000025 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:10:38.0939212-04:00 0HMQ3AHT4048V:00000025 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:10:38.1361784-04:00 0HMQ3AHT4048V:00000025 [INF] Executed DbCommand ("27"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:10:38.1429017-04:00 0HMQ3AHT4048V:00000025 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:10:38.2227376-04:00 0HMQ3AHT4048V:00000025 [INF] Executed PartialViewResult - view "_EditContact" executed in 80.5183ms. (6f83ade2)
+2023-04-22T13:10:38.2228577-04:00 0HMQ3AHT4048V:00000025 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 176.4957ms (afa2e885)
+2023-04-22T13:10:38.2228778-04:00 0HMQ3AHT4048V:00000025 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:10:38.2232675-04:00 0HMQ3AHT4048V:00000025 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 189.7294ms (791a596a)
+2023-04-22T13:10:45.9734250-04:00 0HMQ3AHT4048V:00000027 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js.map - - (ca22a1cb)
+2023-04-22T13:10:45.9738526-04:00 0HMQ3AHT4048V:00000029 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - (ca22a1cb)
+2023-04-22T13:10:45.9748065-04:00 0HMQ3AHT4048V:00000029 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - - 404 0 - 0.9265ms (791a596a)
+2023-04-22T13:10:45.9853301-04:00 0HMQ3AHT4048V:0000002B [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css.map - - (ca22a1cb)
+2023-04-22T13:10:45.9944849-04:00 0HMQ3AHT4048V:00000027 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.js.map"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map"' (27b0a520)
+2023-04-22T13:10:45.9949075-04:00 0HMQ3AHT4048V:00000027 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js.map - - - 200 410007 text/plain 21.3171ms (791a596a)
+2023-04-22T13:10:46.0034701-04:00 0HMQ3AHT4048V:0000002B [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2023-04-22T13:10:46.0035841-04:00 0HMQ3AHT4048V:0000002B [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css.map - - - 200 504418 text/plain 18.2458ms (791a596a)
+2023-04-22T13:11:05.0947069-04:00 0HMQ3AHT4048V:0000002D [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/NewContact application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:11:05.0948939-04:00 0HMQ3AHT4048V:0000002D [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.NewContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:11:05.0957742-04:00 0HMQ3AHT4048V:0000002D [INF] Route matched with "{action = \"NewContact\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult NewContact()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:11:05.0965328-04:00 0HMQ3AHT4048V:0000002D [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:11:05.0983724-04:00 0HMQ3AHT4048V:0000002D [INF] Executed PartialViewResult - view "_EditContact" executed in 1.947ms. (6f83ade2)
+2023-04-22T13:11:05.0988132-04:00 0HMQ3AHT4048V:0000002D [INF] Executed action "ContactManager.Controllers.ContactsController.NewContact (ContactManagerStarter)" in 2.9562ms (afa2e885)
+2023-04-22T13:11:05.0990302-04:00 0HMQ3AHT4048V:0000002D [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.NewContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:11:05.0994157-04:00 0HMQ3AHT4048V:0000002D [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/NewContact application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 4.7211ms (791a596a)
+2023-04-22T13:12:01.5784374-04:00 0HMQ3AHT4048V:0000002F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:12:01.5795650-04:00 0HMQ3AHT4048V:0000002F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:01.5797759-04:00 0HMQ3AHT4048V:0000002F [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:01.5803797-04:00 0HMQ3AHT4048V:0000002F [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:12:01.5888170-04:00 0HMQ3AHT4048V:0000002F [INF] Executed ViewResult - view "Index" executed in 8.6779ms. (f66409e9)
+2023-04-22T13:12:01.5889226-04:00 0HMQ3AHT4048V:0000002F [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 9.0827ms (afa2e885)
+2023-04-22T13:12:01.5889498-04:00 0HMQ3AHT4048V:0000002F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:01.5900723-04:00 0HMQ3AHT4048V:0000002F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 11.6883ms (791a596a)
+2023-04-22T13:12:01.6051346-04:00 0HMQ3AHT4048V:00000031 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:12:01.6070698-04:00 0HMQ3AHT4048V:00000033 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:12:01.6113802-04:00 0HMQ3AHT4048V:00000035 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:12:01.6147826-04:00 0HMQ3AHT4048V:00000035 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.3521ms (791a596a)
+2023-04-22T13:12:01.6424510-04:00 0HMQ3AHT4048V:00000023 [INF] Executed endpoint '"/contacthub"' (99874f2b)
+2023-04-22T13:12:01.6428603-04:00 0HMQ3AHT4048V:00000023 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=PFeyE57dpGi-7RkgXuBZdw - - - 200 - - 86811.4171ms (791a596a)
+2023-04-22T13:12:01.6453690-04:00 0HMQ3AHT4048V:00000031 [INF] Sending file. Request path: '"/js/ContactTable.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\ContactTable.js"' (27b0a520)
+2023-04-22T13:12:01.6459000-04:00 0HMQ3AHT4048V:00000031 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 9824 text/javascript 40.5213ms (791a596a)
+2023-04-22T13:12:01.6549829-04:00 0HMQ3AHT4048V:00000033 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.0310ms (791a596a)
+2023-04-22T13:12:01.7668904-04:00 0HMQ3AHT4048V:00000037 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - (ca22a1cb)
+2023-04-22T13:12:01.7675793-04:00 0HMQ3AHT4048V:00000037 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - - 404 0 - 0.6226ms (791a596a)
+2023-04-22T13:12:01.8437164-04:00 0HMQ3AHT4048V:00000039 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:12:01.8440552-04:00 0HMQ3AHT4048V:00000039 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:01.8441721-04:00 0HMQ3AHT4048V:00000039 [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:01.8498476-04:00 0HMQ3AHT4048V:0000003B [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:12:01.8500365-04:00 0HMQ3AHT4048V:0000003B [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:12:01.8505547-04:00 0HMQ3AHT4048V:0000003B [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:12:01.8506271-04:00 0HMQ3AHT4048V:0000003B [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.8124ms (791a596a)
+2023-04-22T13:12:01.9142976-04:00 0HMQ3AHT4048V:0000003D [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=bFmr7R0FZ6NAoeoEVmxIrg - - (ca22a1cb)
+2023-04-22T13:12:01.9144761-04:00 0HMQ3AHT4048V:0000003D [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:12:01.9380548-04:00 0HMQ3AHT4048V:00000039 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:12:01.9390831-04:00 0HMQ3AHT4048V:00000039 [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:12:01.9393970-04:00 0HMQ3AHT4048V:00000039 [INF] Executed PartialViewResult - view "_ContactTable" executed in 0.3448ms. (6f83ade2)
+2023-04-22T13:12:01.9394411-04:00 0HMQ3AHT4048V:00000039 [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 95.2463ms (afa2e885)
+2023-04-22T13:12:01.9394618-04:00 0HMQ3AHT4048V:00000039 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:01.9395974-04:00 0HMQ3AHT4048V:00000039 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 95.9524ms (791a596a)
+2023-04-22T13:12:23.8343220-04:00 0HMQ3AHT4048V:0000003F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:12:23.8353769-04:00 0HMQ3AHT4048V:0000003F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:23.8355224-04:00 0HMQ3AHT4048V:0000003F [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:23.8358291-04:00 0HMQ3AHT4048V:0000003F [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:12:23.8424721-04:00 0HMQ3AHT4048V:0000003F [INF] Executed ViewResult - view "Index" executed in 6.647ms. (f66409e9)
+2023-04-22T13:12:23.8425405-04:00 0HMQ3AHT4048V:0000003F [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 7.0025ms (afa2e885)
+2023-04-22T13:12:23.8425570-04:00 0HMQ3AHT4048V:0000003F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:23.8439944-04:00 0HMQ3AHT4048V:0000003F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 9.7117ms (791a596a)
+2023-04-22T13:12:23.8553908-04:00 0HMQ3AHT4048V:0000003D [INF] Executed endpoint '"/contacthub"' (99874f2b)
+2023-04-22T13:12:23.8555155-04:00 0HMQ3AHT4048V:0000003D [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=bFmr7R0FZ6NAoeoEVmxIrg - - - 200 - - 21941.2134ms (791a596a)
+2023-04-22T13:12:23.8624323-04:00 0HMQ3AHT4048V:00000041 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:12:23.8644092-04:00 0HMQ3AHT4048V:00000043 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:12:23.8652369-04:00 0HMQ3AHT4048V:00000045 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:12:23.8670742-04:00 0HMQ3AHT4048V:00000045 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.7518ms (791a596a)
+2023-04-22T13:12:23.8901590-04:00 0HMQ3AHT4048V:00000041 [INF] Sending file. Request path: '"/js/ContactTable.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\ContactTable.js"' (27b0a520)
+2023-04-22T13:12:23.8912523-04:00 0HMQ3AHT4048V:00000041 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 9970 text/javascript 27.8955ms (791a596a)
+2023-04-22T13:12:23.9043398-04:00 0HMQ3AHT4048V:00000043 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.9078ms (791a596a)
+2023-04-22T13:12:24.0133208-04:00 0HMQ3AHT4048V:00000047 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - (ca22a1cb)
+2023-04-22T13:12:24.0136372-04:00 0HMQ3AHT4048V:00000047 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - - 404 0 - 0.4301ms (791a596a)
+2023-04-22T13:12:24.0468884-04:00 0HMQ3AHT4048V:00000049 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:12:24.0470591-04:00 0HMQ3AHT4048V:00000049 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:24.0471547-04:00 0HMQ3AHT4048V:00000049 [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:24.0548139-04:00 0HMQ3AHT4048V:0000004B [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:12:24.0549613-04:00 0HMQ3AHT4048V:0000004B [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:12:24.0551128-04:00 0HMQ3AHT4048V:0000004B [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:12:24.0552000-04:00 0HMQ3AHT4048V:0000004B [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 0.3560ms (791a596a)
+2023-04-22T13:12:24.0585687-04:00 0HMQ3AHT4048V:00000049 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:12:24.0595416-04:00 0HMQ3AHT4048V:00000049 [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:12:24.0597398-04:00 0HMQ3AHT4048V:00000049 [INF] Executed PartialViewResult - view "_ContactTable" executed in 0.2434ms. (6f83ade2)
+2023-04-22T13:12:24.0597749-04:00 0HMQ3AHT4048V:00000049 [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 12.6031ms (afa2e885)
+2023-04-22T13:12:24.0598262-04:00 0HMQ3AHT4048V:00000049 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:24.0599456-04:00 0HMQ3AHT4048V:00000049 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 13.0652ms (791a596a)
+2023-04-22T13:12:24.0897130-04:00 0HMQ3AHT4048V:0000004D [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=FhtXKLNAmn0irf_-Ga5y8w - - (ca22a1cb)
+2023-04-22T13:12:24.0900840-04:00 0HMQ3AHT4048V:0000004D [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:12:27.9431846-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:12:28.4375773-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:12:28.4382265-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:12:28.4411214-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:12:28.4413339-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:12:28.4413678-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:12:29.6753409-04:00 0HMQ3AJ068TL7:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:12:29.7866868-04:00 0HMQ3AJ068TL7:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:29.8538335-04:00 0HMQ3AJ068TL7:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:29.8836927-04:00 0HMQ3AJ068TL7:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:12:30.1177541-04:00 0HMQ3AJ068TL7:00000001 [INF] Executed ViewResult - view "Index" executed in 247.4136ms. (f66409e9)
+2023-04-22T13:12:30.1223431-04:00 0HMQ3AJ068TL7:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 266.9406ms (afa2e885)
+2023-04-22T13:12:30.1229394-04:00 0HMQ3AJ068TL7:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:30.1555007-04:00 0HMQ3AJ068TL7:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 483.5874ms (791a596a)
+2023-04-22T13:12:30.1901689-04:00 0HMQ3AJ068TL7:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:12:30.2057740-04:00 0HMQ3AJ068TL7:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 15.3734ms (791a596a)
+2023-04-22T13:12:30.2272349-04:00 0HMQ3AJ068TL7:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:12:30.2773421-04:00 0HMQ3AJ068TL7:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.0674ms (791a596a)
+2023-04-22T13:12:31.3604801-04:00 0HMQ3AJ068TL7:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:12:31.3670094-04:00 0HMQ3AJ068TL7:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:31.3730330-04:00 0HMQ3AJ068TL7:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:31.4953862-04:00 0HMQ3AJ068TL7:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:12:31.5075630-04:00 0HMQ3AJ068TL7:00000007 [INF] Executed ViewResult - view "Index" executed in 12.7305ms. (f66409e9)
+2023-04-22T13:12:31.5078879-04:00 0HMQ3AJ068TL7:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 134.7473ms (afa2e885)
+2023-04-22T13:12:31.5079520-04:00 0HMQ3AJ068TL7:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:31.5111140-04:00 0HMQ3AJ068TL7:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 150.7421ms (791a596a)
+2023-04-22T13:12:31.5226428-04:00 0HMQ3AJ068TL7:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:12:31.5232922-04:00 0HMQ3AJ068TL7:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:12:31.5238344-04:00 0HMQ3AJ068TL7:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:12:31.5251606-04:00 0HMQ3AJ068TL7:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.2702ms (791a596a)
+2023-04-22T13:12:31.5605692-04:00 0HMQ3AJ068TL7:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.2766ms (791a596a)
+2023-04-22T13:12:31.5620485-04:00 0HMQ3AJ068TL7:00000009 [INF] The file "/js/ContactTable.js" was not modified (f1f8d725)
+2023-04-22T13:12:31.5627053-04:00 0HMQ3AJ068TL7:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 40.0246ms (791a596a)
+2023-04-22T13:12:31.5800068-04:00 0HMQ3AJ068TL7:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:12:31.5818213-04:00 0HMQ3AJ068TL7:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:12:31.5820990-04:00 0HMQ3AJ068TL7:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:31.5822579-04:00 0HMQ3AJ068TL7:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:12:31.5913045-04:00 0HMQ3AJ068TL7:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:31.5949754-04:00 0HMQ3AJ068TL7:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:12:31.5951180-04:00 0HMQ3AJ068TL7:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 13.3185ms (791a596a)
+2023-04-22T13:12:31.6093200-04:00 0HMQ3AJ068TL7:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=iLeip8_gEuA8__fDLzXqoA - - (ca22a1cb)
+2023-04-22T13:12:31.6095612-04:00 0HMQ3AJ068TL7:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:12:32.8742077-04:00 0HMQ3AJ068TL7:0000000F [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:12:32.9656362-04:00 0HMQ3AJ068TL7:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:12:33.0167937-04:00 0HMQ3AJ068TL7:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 51.7176ms. (6f83ade2)
+2023-04-22T13:12:33.0169107-04:00 0HMQ3AJ068TL7:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1425.5183ms (afa2e885)
+2023-04-22T13:12:33.0169305-04:00 0HMQ3AJ068TL7:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:33.0214659-04:00 0HMQ3AJ068TL7:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1441.4144ms (791a596a)
+2023-04-22T13:12:35.2655614-04:00 0HMQ3AJ068TL7:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=8f9bd6e7-1491-4776-f9dd-08db433b197d application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:12:35.2668278-04:00 0HMQ3AJ068TL7:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:12:35.2771993-04:00 0HMQ3AJ068TL7:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:12:35.3215296-04:00 0HMQ3AJ068TL7:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:12:35.3849923-04:00 0HMQ3AJ068TL7:00000015 [INF] Executed DbCommand ("39"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:12:35.3889956-04:00 0HMQ3AJ068TL7:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:12:35.4371906-04:00 0HMQ3AJ068TL7:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 48.6664ms. (6f83ade2)
+2023-04-22T13:12:35.4372742-04:00 0HMQ3AJ068TL7:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 160.0448ms (afa2e885)
+2023-04-22T13:12:35.4372957-04:00 0HMQ3AJ068TL7:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:12:35.4377900-04:00 0HMQ3AJ068TL7:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=8f9bd6e7-1491-4776-f9dd-08db433b197d application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 172.1913ms (791a596a)
+2023-04-22T13:12:38.9582675-04:00 0HMQ3AJ068TL7:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - (ca22a1cb)
+2023-04-22T13:12:38.9592427-04:00 0HMQ3AJ068TL7:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - - 404 0 - 0.9474ms (791a596a)
+2023-04-22T13:17:42.6507727-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:17:42.8674970-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:17:42.8677266-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:17:42.8693038-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:17:42.8694132-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:17:42.8694351-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:17:43.8111893-04:00 0HMQ3ALTUN10S:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:17:43.8593622-04:00 0HMQ3ALTUN10S:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:17:43.8802157-04:00 0HMQ3ALTUN10S:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:17:43.8880483-04:00 0HMQ3ALTUN10S:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:17:43.9923667-04:00 0HMQ3ALTUN10S:00000001 [INF] Executed ViewResult - view "Index" executed in 106.0704ms. (f66409e9)
+2023-04-22T13:17:43.9945236-04:00 0HMQ3ALTUN10S:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 113.8593ms (afa2e885)
+2023-04-22T13:17:43.9948235-04:00 0HMQ3ALTUN10S:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:17:44.0160548-04:00 0HMQ3ALTUN10S:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 207.7386ms (791a596a)
+2023-04-22T13:17:44.0482285-04:00 0HMQ3ALTUN10S:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:17:44.0599051-04:00 0HMQ3ALTUN10S:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 11.6193ms (791a596a)
+2023-04-22T13:17:44.0852234-04:00 0HMQ3ALTUN10S:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:17:44.1561614-04:00 0HMQ3ALTUN10S:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.6170ms (791a596a)
+2023-04-22T13:17:45.3377708-04:00 0HMQ3ALTUN10S:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:17:45.3409029-04:00 0HMQ3ALTUN10S:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:17:45.3423642-04:00 0HMQ3ALTUN10S:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:17:45.4615659-04:00 0HMQ3ALTUN10S:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:17:45.4758662-04:00 0HMQ3ALTUN10S:00000007 [INF] Executed ViewResult - view "Index" executed in 14.8344ms. (f66409e9)
+2023-04-22T13:17:45.4761342-04:00 0HMQ3ALTUN10S:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 133.7148ms (afa2e885)
+2023-04-22T13:17:45.4761744-04:00 0HMQ3ALTUN10S:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:17:45.4790094-04:00 0HMQ3ALTUN10S:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 141.2779ms (791a596a)
+2023-04-22T13:17:45.4926078-04:00 0HMQ3ALTUN10S:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:17:45.4933140-04:00 0HMQ3ALTUN10S:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:17:45.4956942-04:00 0HMQ3ALTUN10S:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:17:45.4970212-04:00 0HMQ3ALTUN10S:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.3093ms (791a596a)
+2023-04-22T13:17:45.5340093-04:00 0HMQ3ALTUN10S:00000009 [INF] The file "/js/ContactTable.js" was not modified (f1f8d725)
+2023-04-22T13:17:45.5358487-04:00 0HMQ3ALTUN10S:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 43.0651ms (791a596a)
+2023-04-22T13:17:45.5445090-04:00 0HMQ3ALTUN10S:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.1320ms (791a596a)
+2023-04-22T13:17:45.5447900-04:00 0HMQ3ALTUN10S:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:17:45.5467578-04:00 0HMQ3ALTUN10S:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:17:45.5489476-04:00 0HMQ3ALTUN10S:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:17:45.5493455-04:00 0HMQ3ALTUN10S:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:17:45.5575310-04:00 0HMQ3ALTUN10S:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:17:45.5625066-04:00 0HMQ3ALTUN10S:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:17:45.5626639-04:00 0HMQ3ALTUN10S:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 13.7028ms (791a596a)
+2023-04-22T13:17:45.5761761-04:00 0HMQ3ALTUN10S:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=JcrNwMwudyVn7Fgr971tjQ - - (ca22a1cb)
+2023-04-22T13:17:45.5763976-04:00 0HMQ3ALTUN10S:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:17:46.6024365-04:00 0HMQ3ALTUN10S:0000000F [INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:17:46.7393466-04:00 0HMQ3ALTUN10S:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:17:46.7945485-04:00 0HMQ3ALTUN10S:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 55.9279ms. (6f83ade2)
+2023-04-22T13:17:46.7946642-04:00 0HMQ3ALTUN10S:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1237.0594ms (afa2e885)
+2023-04-22T13:17:46.7946904-04:00 0HMQ3ALTUN10S:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:17:46.8009898-04:00 0HMQ3ALTUN10S:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1256.1821ms (791a596a)
+2023-04-22T13:17:47.2182026-04:00 0HMQ3ALTUN10S:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - (ca22a1cb)
+2023-04-22T13:17:47.2191706-04:00 0HMQ3ALTUN10S:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js.map - - - 404 0 - 0.9658ms (791a596a)
+2023-04-22T13:17:50.9247084-04:00 0HMQ3ALTUN10S:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:17:50.9262165-04:00 0HMQ3ALTUN10S:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:17:50.9381779-04:00 0HMQ3ALTUN10S:00000017 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:17:50.9934673-04:00 0HMQ3ALTUN10S:00000017 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:17:51.0409966-04:00 0HMQ3ALTUN10S:00000017 [INF] Executed DbCommand ("30"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:17:51.0448374-04:00 0HMQ3ALTUN10S:00000017 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:17:51.1205989-04:00 0HMQ3ALTUN10S:00000017 [INF] Executed PartialViewResult - view "_EditContact" executed in 76.1978ms. (6f83ade2)
+2023-04-22T13:17:51.1207277-04:00 0HMQ3ALTUN10S:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 182.4789ms (afa2e885)
+2023-04-22T13:17:51.1207473-04:00 0HMQ3ALTUN10S:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:17:51.1211488-04:00 0HMQ3ALTUN10S:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 196.4466ms (791a596a)
+2023-04-22T13:18:47.4888172-04:00 0HMQ3ALTUN10S:00000019 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:18:47.4891223-04:00 0HMQ3ALTUN10S:00000019 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:18:47.4893321-04:00 0HMQ3ALTUN10S:00000019 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:18:47.5871173-04:00 0HMQ3ALTUN10S:00000019 [INF] Executed DbCommand ("13"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:18:47.5879735-04:00 0HMQ3ALTUN10S:00000019 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:18:47.5890271-04:00 0HMQ3ALTUN10S:00000019 [INF] Executed PartialViewResult - view "_EditContact" executed in 1.1934ms. (6f83ade2)
+2023-04-22T13:18:47.5891678-04:00 0HMQ3ALTUN10S:00000019 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 99.787ms (afa2e885)
+2023-04-22T13:18:47.5892089-04:00 0HMQ3ALTUN10S:00000019 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:18:47.5893331-04:00 0HMQ3ALTUN10S:00000019 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 100.5535ms (791a596a)
+2023-04-22T13:20:23.3421409-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:20:23.5472458-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:20:23.5474626-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:20:23.5499778-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:20:23.5501801-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:20:23.5502134-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:20:24.4978209-04:00 0HMQ3ANDND822:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:20:24.5455219-04:00 0HMQ3ANDND822:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:20:24.5793954-04:00 0HMQ3ANDND822:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:20:24.6007930-04:00 0HMQ3ANDND822:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:20:24.7929784-04:00 0HMQ3ANDND822:00000001 [INF] Executed ViewResult - view "Index" executed in 195.9249ms. (f66409e9)
+2023-04-22T13:20:24.7976343-04:00 0HMQ3ANDND822:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 217.3383ms (afa2e885)
+2023-04-22T13:20:24.7981464-04:00 0HMQ3ANDND822:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:20:24.8283421-04:00 0HMQ3ANDND822:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 332.2172ms (791a596a)
+2023-04-22T13:20:24.8685294-04:00 0HMQ3ANDND822:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:20:24.8869839-04:00 0HMQ3ANDND822:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 18.2778ms (791a596a)
+2023-04-22T13:20:24.9098797-04:00 0HMQ3ANDND822:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:20:25.0109472-04:00 0HMQ3ANDND822:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.0313ms (791a596a)
+2023-04-22T13:20:26.0700618-04:00 0HMQ3ANDND822:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:20:26.0738939-04:00 0HMQ3ANDND822:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:20:26.0757691-04:00 0HMQ3ANDND822:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:20:26.2241267-04:00 0HMQ3ANDND822:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:20:26.2348820-04:00 0HMQ3ANDND822:00000007 [INF] Executed ViewResult - view "Index" executed in 11.522ms. (f66409e9)
+2023-04-22T13:20:26.2352870-04:00 0HMQ3ANDND822:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 159.4032ms (afa2e885)
+2023-04-22T13:20:26.2353520-04:00 0HMQ3ANDND822:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:20:26.2392131-04:00 0HMQ3ANDND822:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 169.1822ms (791a596a)
+2023-04-22T13:20:26.2541435-04:00 0HMQ3ANDND822:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:20:26.2550872-04:00 0HMQ3ANDND822:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:20:26.2550888-04:00 0HMQ3ANDND822:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:20:26.2569405-04:00 0HMQ3ANDND822:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.6962ms (791a596a)
+2023-04-22T13:20:26.2925839-04:00 0HMQ3ANDND822:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.4397ms (791a596a)
+2023-04-22T13:20:26.3172005-04:00 0HMQ3ANDND822:00000009 [INF] Sending file. Request path: '"/js/ContactTable.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\ContactTable.js"' (27b0a520)
+2023-04-22T13:20:26.3174134-04:00 0HMQ3ANDND822:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 9770 text/javascript 63.2422ms (791a596a)
+2023-04-22T13:20:26.3306892-04:00 0HMQ3ANDND822:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:20:26.3317006-04:00 0HMQ3ANDND822:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:20:26.3320595-04:00 0HMQ3ANDND822:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:20:26.3320661-04:00 0HMQ3ANDND822:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:20:26.3412263-04:00 0HMQ3ANDND822:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:20:26.3443784-04:00 0HMQ3ANDND822:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:20:26.3444916-04:00 0HMQ3ANDND822:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 12.7834ms (791a596a)
+2023-04-22T13:20:26.3836335-04:00 0HMQ3ANDND822:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=fhJbRniCL9f1jg7VoPZV3A - - (ca22a1cb)
+2023-04-22T13:20:26.3839209-04:00 0HMQ3ANDND822:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:20:27.4470409-04:00 0HMQ3ANDND822:0000000F [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:20:27.5777844-04:00 0HMQ3ANDND822:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:20:27.6508099-04:00 0HMQ3ANDND822:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 74.2065ms. (6f83ade2)
+2023-04-22T13:20:27.6510154-04:00 0HMQ3ANDND822:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1309.7089ms (afa2e885)
+2023-04-22T13:20:27.6510583-04:00 0HMQ3ANDND822:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:20:27.6588645-04:00 0HMQ3ANDND822:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1328.1089ms (791a596a)
+2023-04-22T13:20:29.7237729-04:00 0HMQ3ANDND822:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:20:29.7252819-04:00 0HMQ3ANDND822:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:20:29.7330286-04:00 0HMQ3ANDND822:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:20:29.7709779-04:00 0HMQ3ANDND822:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:20:29.8207969-04:00 0HMQ3ANDND822:00000015 [INF] Executed DbCommand ("31"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:20:29.8242685-04:00 0HMQ3ANDND822:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:20:29.8644799-04:00 0HMQ3ANDND822:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 40.6736ms. (6f83ade2)
+2023-04-22T13:20:29.8645560-04:00 0HMQ3ANDND822:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 131.4863ms (afa2e885)
+2023-04-22T13:20:29.8645829-04:00 0HMQ3ANDND822:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:20:29.8649217-04:00 0HMQ3ANDND822:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 141.1460ms (791a596a)
+2023-04-22T13:21:44.4309462-04:00 0HMQ3ANDND822:00000013 [INF] Executed endpoint '"/contacthub"' (99874f2b)
+2023-04-22T13:21:44.4311189-04:00 0HMQ3ANDND822:00000013 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=fhJbRniCL9f1jg7VoPZV3A - - - 200 - - 78047.4698ms (791a596a)
+2023-04-22T13:21:50.2012485-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:21:50.4076169-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:21:50.4078282-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:21:50.4097824-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:21:50.4099410-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:21:50.4099737-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:21:51.9123099-04:00 0HMQ3AO7M7TT0:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:21:51.9777624-04:00 0HMQ3AO7M7TT0:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:21:52.0081090-04:00 0HMQ3AO7M7TT0:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:21:52.0206742-04:00 0HMQ3AO7M7TT0:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:21:52.1523379-04:00 0HMQ3AO7M7TT0:00000001 [INF] Executed ViewResult - view "Index" executed in 136.1666ms. (f66409e9)
+2023-04-22T13:21:52.1546698-04:00 0HMQ3AO7M7TT0:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 145.9022ms (afa2e885)
+2023-04-22T13:21:52.1549719-04:00 0HMQ3AO7M7TT0:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:21:52.1719989-04:00 0HMQ3AO7M7TT0:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 263.1031ms (791a596a)
+2023-04-22T13:21:52.1894177-04:00 0HMQ3AO7M7TT0:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:21:52.1972292-04:00 0HMQ3AO7M7TT0:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 7.7205ms (791a596a)
+2023-04-22T13:21:52.2524514-04:00 0HMQ3AO7M7TT0:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:21:52.2831591-04:00 0HMQ3AO7M7TT0:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.6537ms (791a596a)
+2023-04-22T13:21:53.4610113-04:00 0HMQ3AO7M7TT0:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:21:53.4657551-04:00 0HMQ3AO7M7TT0:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:21:53.4679550-04:00 0HMQ3AO7M7TT0:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:21:53.5944392-04:00 0HMQ3AO7M7TT0:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:21:53.6058089-04:00 0HMQ3AO7M7TT0:00000007 [INF] Executed ViewResult - view "Index" executed in 12.2743ms. (f66409e9)
+2023-04-22T13:21:53.6059657-04:00 0HMQ3AO7M7TT0:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 137.9444ms (afa2e885)
+2023-04-22T13:21:53.6059905-04:00 0HMQ3AO7M7TT0:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:21:53.6082723-04:00 0HMQ3AO7M7TT0:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 147.3165ms (791a596a)
+2023-04-22T13:21:53.6193100-04:00 0HMQ3AO7M7TT0:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:21:53.6201509-04:00 0HMQ3AO7M7TT0:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:21:53.6214475-04:00 0HMQ3AO7M7TT0:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:21:53.6247007-04:00 0HMQ3AO7M7TT0:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.1175ms (791a596a)
+2023-04-22T13:21:53.6582788-04:00 0HMQ3AO7M7TT0:00000009 [INF] The file "/js/ContactTable.js" was not modified (f1f8d725)
+2023-04-22T13:21:53.6601304-04:00 0HMQ3AO7M7TT0:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 40.5752ms (791a596a)
+2023-04-22T13:21:53.6634706-04:00 0HMQ3AO7M7TT0:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.2464ms (791a596a)
+2023-04-22T13:21:53.6738520-04:00 0HMQ3AO7M7TT0:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:21:53.6754936-04:00 0HMQ3AO7M7TT0:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:21:53.6762250-04:00 0HMQ3AO7M7TT0:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:21:53.6765411-04:00 0HMQ3AO7M7TT0:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:21:53.6845758-04:00 0HMQ3AO7M7TT0:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:21:53.6881212-04:00 0HMQ3AO7M7TT0:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:21:53.6882600-04:00 0HMQ3AO7M7TT0:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 11.9989ms (791a596a)
+2023-04-22T13:21:53.7018187-04:00 0HMQ3AO7M7TT0:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=jZRiLCa4r9rFrIejTSN0og - - (ca22a1cb)
+2023-04-22T13:21:53.7019466-04:00 0HMQ3AO7M7TT0:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:21:54.7183780-04:00 0HMQ3AO7M7TT0:0000000F [INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:21:54.8050138-04:00 0HMQ3AO7M7TT0:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:21:54.8674570-04:00 0HMQ3AO7M7TT0:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 64.2941ms. (6f83ade2)
+2023-04-22T13:21:54.8675720-04:00 0HMQ3AO7M7TT0:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1182.9359ms (afa2e885)
+2023-04-22T13:21:54.8675954-04:00 0HMQ3AO7M7TT0:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:21:54.8710966-04:00 0HMQ3AO7M7TT0:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1197.2645ms (791a596a)
+2023-04-22T13:21:56.1668184-04:00 0HMQ3AO7M7TT0:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:21:56.1684469-04:00 0HMQ3AO7M7TT0:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:21:56.1763689-04:00 0HMQ3AO7M7TT0:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:21:56.2225980-04:00 0HMQ3AO7M7TT0:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:21:56.2686273-04:00 0HMQ3AO7M7TT0:00000015 [INF] Executed DbCommand ("28"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:21:56.2717228-04:00 0HMQ3AO7M7TT0:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:21:56.3193573-04:00 0HMQ3AO7M7TT0:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 48.0031ms. (6f83ade2)
+2023-04-22T13:21:56.3194181-04:00 0HMQ3AO7M7TT0:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 143.0219ms (afa2e885)
+2023-04-22T13:21:56.3194342-04:00 0HMQ3AO7M7TT0:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:21:56.3198388-04:00 0HMQ3AO7M7TT0:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 153.0399ms (791a596a)
+2023-04-22T13:22:16.1718441-04:00 0HMQ3AO7M7TT0:00000013 [INF] Executed endpoint '"/contacthub"' (99874f2b)
+2023-04-22T13:22:16.1720165-04:00 0HMQ3AO7M7TT0:00000013 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=jZRiLCa4r9rFrIejTSN0og - - - 200 - - 22470.1722ms (791a596a)
+2023-04-22T13:22:16.1759944-04:00  [INF] Connection id ""0HMQ3AO7M7TT0"", Request id ""0HMQ3AO7M7TT0:00000013"": the application completed without reading the entire request body. (54ac9468)
+2023-04-22T13:22:23.8192694-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:22:24.0300032-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:22:24.0302306-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:22:24.0317925-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:22:24.0319723-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:22:24.0320104-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:22:24.9230828-04:00 0HMQ3AOHLKPF4:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:22:25.0414087-04:00 0HMQ3AOHLKPF4:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:22:25.0693175-04:00 0HMQ3AOHLKPF4:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:22:25.0873734-04:00 0HMQ3AOHLKPF4:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:22:25.2369276-04:00 0HMQ3AOHLKPF4:00000001 [INF] Executed ViewResult - view "Index" executed in 157.1038ms. (f66409e9)
+2023-04-22T13:22:25.2391572-04:00 0HMQ3AOHLKPF4:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 169.1012ms (afa2e885)
+2023-04-22T13:22:25.2395552-04:00 0HMQ3AOHLKPF4:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:22:25.2575679-04:00 0HMQ3AOHLKPF4:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 338.8250ms (791a596a)
+2023-04-22T13:22:25.2687168-04:00 0HMQ3AOHLKPF4:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - (ca22a1cb)
+2023-04-22T13:22:25.2687372-04:00 0HMQ3AOHLKPF4:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - (ca22a1cb)
+2023-04-22T13:22:25.2687442-04:00 0HMQ3AOHLKPF4:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - (ca22a1cb)
+2023-04-22T13:22:25.2690149-04:00 0HMQ3AOHLKPF4:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/css/site.css - - (ca22a1cb)
+2023-04-22T13:22:25.2690544-04:00 0HMQ3AOHLKPF4:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/css/themify-icons.css - - (ca22a1cb)
+2023-04-22T13:22:25.2719157-04:00 0HMQ3AOHLKPF4:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - (ca22a1cb)
+2023-04-22T13:22:25.2719664-04:00 0HMQ3AOHLKPF4:00000011 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:22:25.2730739-04:00 0HMQ3AOHLKPF4:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - (ca22a1cb)
+2023-04-22T13:22:25.2950781-04:00 0HMQ3AOHLKPF4:00000011 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 22.1930ms (791a596a)
+2023-04-22T13:22:25.3054957-04:00 0HMQ3AOHLKPF4:00000005 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\css\site.css"' (27b0a520)
+2023-04-22T13:22:25.3054937-04:00 0HMQ3AOHLKPF4:0000000F [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\site.js"' (27b0a520)
+2023-04-22T13:22:25.3054956-04:00 0HMQ3AOHLKPF4:00000007 [INF] Sending file. Request path: '"/css/themify-icons.css"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\css\themify-icons.css"' (27b0a520)
+2023-04-22T13:22:25.3057686-04:00 0HMQ3AOHLKPF4:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/css/site.css - - - 200 2062 text/css 36.8924ms (791a596a)
+2023-04-22T13:22:25.3057687-04:00 0HMQ3AOHLKPF4:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 34.0221ms (791a596a)
+2023-04-22T13:22:25.3057669-04:00 0HMQ3AOHLKPF4:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/css/themify-icons.css - - - 200 17531 text/css 36.6706ms (791a596a)
+2023-04-22T13:22:25.3124111-04:00 0HMQ3AOHLKPF4:0000000B [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js"' (27b0a520)
+2023-04-22T13:22:25.3124111-04:00 0HMQ3AOHLKPF4:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2023-04-22T13:22:25.3127512-04:00 0HMQ3AOHLKPF4:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/css/bootstrap.css - - - 200 207393 text/css 44.1718ms (791a596a)
+2023-04-22T13:22:25.3127619-04:00 0HMQ3AOHLKPF4:0000000D [INF] Sending file. Request path: '"/lib/signalr/dist/browser/signalr.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\signalr\dist\browser\signalr.js"' (27b0a520)
+2023-04-22T13:22:25.3128813-04:00 0HMQ3AOHLKPF4:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/lib/signalr/dist/browser/signalr.js - - - 200 229992 text/javascript 44.1197ms (791a596a)
+2023-04-22T13:22:25.3129462-04:00 0HMQ3AOHLKPF4:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 235114 text/javascript 40.8093ms (791a596a)
+2023-04-22T13:22:25.3142409-04:00 0HMQ3AOHLKPF4:00000009 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2023-04-22T13:22:25.3144650-04:00 0HMQ3AOHLKPF4:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/lib/jquery/dist/jquery.js - - - 200 282115 text/javascript 45.6907ms (791a596a)
+2023-04-22T13:22:25.3433921-04:00 0HMQ3AOHLKPF4:00000013 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:22:25.3859783-04:00 0HMQ3AOHLKPF4:00000013 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.5809ms (791a596a)
+2023-04-22T13:22:25.4527754-04:00 0HMQ3AOHLKPF4:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/favicon.ico - - (ca22a1cb)
+2023-04-22T13:22:25.4568834-04:00 0HMQ3AOHLKPF4:00000015 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\favicon.ico"' (27b0a520)
+2023-04-22T13:22:25.4571393-04:00 0HMQ3AOHLKPF4:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/favicon.ico - - - 200 5430 image/x-icon 4.3237ms (791a596a)
+2023-04-22T13:22:27.5417856-04:00 0HMQ3AOHLKPF4:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:22:27.5453309-04:00 0HMQ3AOHLKPF4:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:22:27.5482334-04:00 0HMQ3AOHLKPF4:00000017 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:22:27.7139868-04:00 0HMQ3AOHLKPF4:00000017 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:22:27.7260272-04:00 0HMQ3AOHLKPF4:00000017 [INF] Executed ViewResult - view "Index" executed in 13.3462ms. (f66409e9)
+2023-04-22T13:22:27.7262277-04:00 0HMQ3AOHLKPF4:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 177.9423ms (afa2e885)
+2023-04-22T13:22:27.7262716-04:00 0HMQ3AOHLKPF4:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:22:27.7296797-04:00 0HMQ3AOHLKPF4:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 187.8627ms (791a596a)
+2023-04-22T13:22:27.7429711-04:00 0HMQ3AOHLKPF4:00000019 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:22:27.7456010-04:00 0HMQ3AOHLKPF4:0000001D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:22:27.7456009-04:00 0HMQ3AOHLKPF4:0000001B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:22:27.7467122-04:00 0HMQ3AOHLKPF4:00000019 [INF] Sending file. Request path: '"/js/ContactTable.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\ContactTable.js"' (27b0a520)
+2023-04-22T13:22:27.7469101-04:00 0HMQ3AOHLKPF4:00000019 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 9770 text/javascript 4.0010ms (791a596a)
+2023-04-22T13:22:27.7484841-04:00 0HMQ3AOHLKPF4:0000001D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.8424ms (791a596a)
+2023-04-22T13:22:27.7920316-04:00 0HMQ3AOHLKPF4:0000001B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.4293ms (791a596a)
+2023-04-22T13:22:27.7952134-04:00 0HMQ3AOHLKPF4:0000001F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:22:27.7971595-04:00 0HMQ3AOHLKPF4:0000001F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:22:27.7992045-04:00 0HMQ3AOHLKPF4:00000021 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:22:27.7995315-04:00 0HMQ3AOHLKPF4:00000021 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:22:27.8069457-04:00 0HMQ3AOHLKPF4:0000001F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:22:27.8083491-04:00 0HMQ3AOHLKPF4:00000021 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:22:27.8084844-04:00 0HMQ3AOHLKPF4:00000021 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 9.2428ms (791a596a)
+2023-04-22T13:22:27.8151280-04:00 0HMQ3AOHLKPF4:00000023 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=e8bnhrqwyS1ipLthNeDJ3g - - (ca22a1cb)
+2023-04-22T13:22:27.8153524-04:00 0HMQ3AOHLKPF4:00000023 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:22:28.8706277-04:00 0HMQ3AOHLKPF4:0000001F [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:22:28.9428999-04:00 0HMQ3AOHLKPF4:0000001F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:22:29.0035793-04:00 0HMQ3AOHLKPF4:0000001F [INF] Executed PartialViewResult - view "_ContactTable" executed in 61.2931ms. (6f83ade2)
+2023-04-22T13:22:29.0036678-04:00 0HMQ3AOHLKPF4:0000001F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1196.6675ms (afa2e885)
+2023-04-22T13:22:29.0036917-04:00 0HMQ3AOHLKPF4:0000001F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:22:29.0073988-04:00 0HMQ3AOHLKPF4:0000001F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1212.1699ms (791a596a)
+2023-04-22T13:22:30.4000210-04:00 0HMQ3AOHLKPF4:00000025 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:22:30.4010937-04:00 0HMQ3AOHLKPF4:00000025 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:22:30.4117216-04:00 0HMQ3AOHLKPF4:00000025 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:22:30.4479410-04:00 0HMQ3AOHLKPF4:00000025 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:22:30.4902180-04:00 0HMQ3AOHLKPF4:00000025 [INF] Executed DbCommand ("30"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:22:30.4933615-04:00 0HMQ3AOHLKPF4:00000025 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:22:30.5336026-04:00 0HMQ3AOHLKPF4:00000025 [INF] Executed PartialViewResult - view "_EditContact" executed in 40.5687ms. (6f83ade2)
+2023-04-22T13:22:30.5336769-04:00 0HMQ3AOHLKPF4:00000025 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 121.9158ms (afa2e885)
+2023-04-22T13:22:30.5336977-04:00 0HMQ3AOHLKPF4:00000025 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:22:30.5341101-04:00 0HMQ3AOHLKPF4:00000025 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 134.0710ms (791a596a)
+2023-04-22T13:22:36.4877181-04:00 0HMQ3AOHLKPF4:00000023 [INF] Executed endpoint '"/contacthub"' (99874f2b)
+2023-04-22T13:22:36.4878676-04:00 0HMQ3AOHLKPF4:00000023 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=e8bnhrqwyS1ipLthNeDJ3g - - - 200 - - 8672.7248ms (791a596a)
+2023-04-22T13:22:56.8151350-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:22:57.0950953-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:22:57.0952909-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:22:57.0974125-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:22:57.0976206-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:22:57.0976521-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:22:57.5634216-04:00 0HMQ3AORFITIH:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:22:57.6124263-04:00 0HMQ3AORFITIH:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:22:57.6521167-04:00 0HMQ3AORFITIH:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:22:57.6677989-04:00 0HMQ3AORFITIH:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:22:57.7802440-04:00 0HMQ3AORFITIH:00000001 [INF] Executed ViewResult - view "Index" executed in 115.7172ms. (f66409e9)
+2023-04-22T13:22:57.7823110-04:00 0HMQ3AORFITIH:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 129.396ms (afa2e885)
+2023-04-22T13:22:57.7826094-04:00 0HMQ3AORFITIH:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:22:57.8004115-04:00 0HMQ3AORFITIH:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 238.5467ms (791a596a)
+2023-04-22T13:22:57.8196740-04:00 0HMQ3AORFITIH:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:22:57.8292095-04:00 0HMQ3AORFITIH:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 9.4439ms (791a596a)
+2023-04-22T13:22:57.8548734-04:00 0HMQ3AORFITIH:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:22:57.8873857-04:00 0HMQ3AORFITIH:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.4791ms (791a596a)
+2023-04-22T13:23:00.0238696-04:00 0HMQ3AORFITIH:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:23:00.0293055-04:00 0HMQ3AORFITIH:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:23:00.0308591-04:00 0HMQ3AORFITIH:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:23:00.1904437-04:00 0HMQ3AORFITIH:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:23:00.2025988-04:00 0HMQ3AORFITIH:00000007 [INF] Executed ViewResult - view "Index" executed in 12.686ms. (f66409e9)
+2023-04-22T13:23:00.2028034-04:00 0HMQ3AORFITIH:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 171.9003ms (afa2e885)
+2023-04-22T13:23:00.2028334-04:00 0HMQ3AORFITIH:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:23:00.2050226-04:00 0HMQ3AORFITIH:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 181.3658ms (791a596a)
+2023-04-22T13:23:00.2166121-04:00 0HMQ3AORFITIH:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:23:00.2181833-04:00 0HMQ3AORFITIH:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:23:00.2200810-04:00 0HMQ3AORFITIH:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:23:00.2238945-04:00 0HMQ3AORFITIH:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.4821ms (791a596a)
+2023-04-22T13:23:00.2601400-04:00 0HMQ3AORFITIH:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.8837ms (791a596a)
+2023-04-22T13:23:00.2620422-04:00 0HMQ3AORFITIH:00000009 [INF] The file "/js/ContactTable.js" was not modified (f1f8d725)
+2023-04-22T13:23:00.2626057-04:00 0HMQ3AORFITIH:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 46.0163ms (791a596a)
+2023-04-22T13:23:00.2783272-04:00 0HMQ3AORFITIH:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:23:00.2797488-04:00 0HMQ3AORFITIH:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:23:00.2805675-04:00 0HMQ3AORFITIH:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:23:00.2808198-04:00 0HMQ3AORFITIH:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:23:00.2879204-04:00 0HMQ3AORFITIH:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:23:00.2915172-04:00 0HMQ3AORFITIH:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:23:00.2918455-04:00 0HMQ3AORFITIH:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 11.2179ms (791a596a)
+2023-04-22T13:23:00.3055607-04:00 0HMQ3AORFITIH:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=QXDd0fWoKufsEoMbJbnyDw - - (ca22a1cb)
+2023-04-22T13:23:00.3057046-04:00 0HMQ3AORFITIH:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:23:01.4040735-04:00 0HMQ3AORFITIH:0000000F [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:23:01.4855504-04:00 0HMQ3AORFITIH:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:23:01.5363999-04:00 0HMQ3AORFITIH:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 51.9363ms. (6f83ade2)
+2023-04-22T13:23:01.5365246-04:00 0HMQ3AORFITIH:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1248.5241ms (afa2e885)
+2023-04-22T13:23:01.5365473-04:00 0HMQ3AORFITIH:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:23:01.5420106-04:00 0HMQ3AORFITIH:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1263.6873ms (791a596a)
+2023-04-22T13:23:03.4349661-04:00 0HMQ3AORFITIH:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:23:03.4367196-04:00 0HMQ3AORFITIH:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:23:03.4493208-04:00 0HMQ3AORFITIH:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:23:03.5121898-04:00 0HMQ3AORFITIH:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:23:03.5575426-04:00 0HMQ3AORFITIH:00000015 [INF] Executed DbCommand ("27"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:23:03.5647284-04:00 0HMQ3AORFITIH:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:23:03.6341348-04:00 0HMQ3AORFITIH:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 70.3387ms. (6f83ade2)
+2023-04-22T13:23:03.6342336-04:00 0HMQ3AORFITIH:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 184.867ms (afa2e885)
+2023-04-22T13:23:03.6342653-04:00 0HMQ3AORFITIH:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:23:03.6346384-04:00 0HMQ3AORFITIH:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 199.6684ms (791a596a)
+2023-04-22T13:23:11.6232052-04:00 0HMQ3AORFITIH:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:23:11.6233770-04:00 0HMQ3AORFITIH:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:23:11.6235420-04:00 0HMQ3AORFITIH:00000017 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:23:11.6731829-04:00 0HMQ3AORFITIH:00000017 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:23:11.6739243-04:00 0HMQ3AORFITIH:00000017 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:23:11.6750559-04:00 0HMQ3AORFITIH:00000017 [INF] Executed PartialViewResult - view "_EditContact" executed in 1.3166ms. (6f83ade2)
+2023-04-22T13:23:11.6751148-04:00 0HMQ3AORFITIH:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 51.5565ms (afa2e885)
+2023-04-22T13:23:11.6751335-04:00 0HMQ3AORFITIH:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:23:11.6752588-04:00 0HMQ3AORFITIH:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 52.0566ms (791a596a)
+2023-04-22T13:25:28.7700761-04:00 0HMQ3AORFITIH:00000019 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:25:28.7702463-04:00 0HMQ3AORFITIH:00000019 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:25:28.7703451-04:00 0HMQ3AORFITIH:00000019 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:25:28.7817967-04:00 0HMQ3AORFITIH:00000019 [INF] Executed DbCommand ("10"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:25:28.7825714-04:00 0HMQ3AORFITIH:00000019 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:25:28.7838224-04:00 0HMQ3AORFITIH:00000019 [INF] Executed PartialViewResult - view "_EditContact" executed in 1.311ms. (6f83ade2)
+2023-04-22T13:25:28.7839624-04:00 0HMQ3AORFITIH:00000019 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 13.5769ms (afa2e885)
+2023-04-22T13:25:28.7845498-04:00 0HMQ3AORFITIH:00000019 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:25:28.7887903-04:00 0HMQ3AORFITIH:00000019 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 18.6888ms (791a596a)
+2023-04-22T13:28:12.7634890-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:28:12.9824886-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:28:12.9827069-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:28:12.9849706-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:28:12.9851884-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:28:12.9852204-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:28:13.6765373-04:00 0HMQ3ARPKRQLE:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:28:13.7751122-04:00 0HMQ3ARPKRQLE:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:28:13.8070173-04:00 0HMQ3ARPKRQLE:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:28:13.8148478-04:00 0HMQ3ARPKRQLE:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:28:13.9681208-04:00 0HMQ3ARPKRQLE:00000001 [INF] Executed ViewResult - view "Index" executed in 155.4055ms. (f66409e9)
+2023-04-22T13:28:13.9701601-04:00 0HMQ3ARPKRQLE:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 162.6647ms (afa2e885)
+2023-04-22T13:28:13.9705668-04:00 0HMQ3ARPKRQLE:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:28:13.9882852-04:00 0HMQ3ARPKRQLE:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 314.1949ms (791a596a)
+2023-04-22T13:28:14.0087965-04:00 0HMQ3ARPKRQLE:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:28:14.0176692-04:00 0HMQ3ARPKRQLE:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 8.7841ms (791a596a)
+2023-04-22T13:28:14.0373528-04:00 0HMQ3ARPKRQLE:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:28:14.0787009-04:00 0HMQ3ARPKRQLE:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.2235ms (791a596a)
+2023-04-22T13:28:15.5391281-04:00 0HMQ3ARPKRQLE:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:28:15.5422819-04:00 0HMQ3ARPKRQLE:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:28:15.5446058-04:00 0HMQ3ARPKRQLE:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:28:15.6720851-04:00 0HMQ3ARPKRQLE:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:28:15.6812192-04:00 0HMQ3ARPKRQLE:00000007 [INF] Executed ViewResult - view "Index" executed in 9.8419ms. (f66409e9)
+2023-04-22T13:28:15.6814647-04:00 0HMQ3ARPKRQLE:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 136.7734ms (afa2e885)
+2023-04-22T13:28:15.6814968-04:00 0HMQ3ARPKRQLE:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:28:15.6839083-04:00 0HMQ3ARPKRQLE:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 144.8211ms (791a596a)
+2023-04-22T13:28:15.6941258-04:00 0HMQ3ARPKRQLE:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:28:15.6950485-04:00 0HMQ3ARPKRQLE:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:28:15.6971283-04:00 0HMQ3ARPKRQLE:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:28:15.7003384-04:00 0HMQ3ARPKRQLE:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.6431ms (791a596a)
+2023-04-22T13:28:15.7340388-04:00 0HMQ3ARPKRQLE:00000009 [INF] The file "/js/ContactTable.js" was not modified (f1f8d725)
+2023-04-22T13:28:15.7343982-04:00 0HMQ3ARPKRQLE:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2992ms (791a596a)
+2023-04-22T13:28:15.7347237-04:00 0HMQ3ARPKRQLE:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 304 - text/javascript 40.6100ms (791a596a)
+2023-04-22T13:28:15.7557558-04:00 0HMQ3ARPKRQLE:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:28:15.7575412-04:00 0HMQ3ARPKRQLE:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:28:15.7583554-04:00 0HMQ3ARPKRQLE:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:28:15.7586412-04:00 0HMQ3ARPKRQLE:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:28:15.7681686-04:00 0HMQ3ARPKRQLE:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:28:15.7738165-04:00 0HMQ3ARPKRQLE:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:28:15.7739678-04:00 0HMQ3ARPKRQLE:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 15.5920ms (791a596a)
+2023-04-22T13:28:15.7851677-04:00 0HMQ3ARPKRQLE:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=NDzwTFMlGGIYsd-JGTrsSw - - (ca22a1cb)
+2023-04-22T13:28:15.7853526-04:00 0HMQ3ARPKRQLE:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:28:16.7530297-04:00 0HMQ3ARPKRQLE:0000000F [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:28:16.8231053-04:00 0HMQ3ARPKRQLE:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:28:16.8826244-04:00 0HMQ3ARPKRQLE:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 60.7772ms. (6f83ade2)
+2023-04-22T13:28:16.8827386-04:00 0HMQ3ARPKRQLE:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1114.5178ms (afa2e885)
+2023-04-22T13:28:16.8827580-04:00 0HMQ3ARPKRQLE:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:28:16.8870754-04:00 0HMQ3ARPKRQLE:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1131.2842ms (791a596a)
+2023-04-22T13:28:18.5114237-04:00 0HMQ3ARPKRQLE:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:28:18.5128573-04:00 0HMQ3ARPKRQLE:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:28:18.5232946-04:00 0HMQ3ARPKRQLE:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:28:18.5629765-04:00 0HMQ3ARPKRQLE:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:28:18.6030169-04:00 0HMQ3ARPKRQLE:00000015 [INF] Executed DbCommand ("27"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:28:18.6067481-04:00 0HMQ3ARPKRQLE:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:28:18.6472813-04:00 0HMQ3ARPKRQLE:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 41.0056ms. (6f83ade2)
+2023-04-22T13:28:18.6473527-04:00 0HMQ3ARPKRQLE:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 124.0308ms (afa2e885)
+2023-04-22T13:28:18.6473702-04:00 0HMQ3ARPKRQLE:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:28:18.6478676-04:00 0HMQ3ARPKRQLE:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 136.4014ms (791a596a)
+2023-04-22T13:28:32.8767047-04:00 0HMQ3ARPKRQLE:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:28:32.8771265-04:00 0HMQ3ARPKRQLE:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:28:32.8773921-04:00 0HMQ3ARPKRQLE:00000017 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:28:32.9521694-04:00 0HMQ3ARPKRQLE:00000017 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:28:32.9529262-04:00 0HMQ3ARPKRQLE:00000017 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:28:32.9546483-04:00 0HMQ3ARPKRQLE:00000017 [INF] Executed PartialViewResult - view "_EditContact" executed in 1.9344ms. (6f83ade2)
+2023-04-22T13:28:32.9547811-04:00 0HMQ3ARPKRQLE:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 77.3579ms (afa2e885)
+2023-04-22T13:28:32.9548365-04:00 0HMQ3ARPKRQLE:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:28:32.9550764-04:00 0HMQ3ARPKRQLE:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 78.3214ms (791a596a)
+2023-04-22T13:30:43.5790399-04:00  [INF] User profile is available. Using '"C:\Users\maria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2023-04-22T13:30:43.7987283-04:00  [INF] Now listening on: "https://localhost:7276" (d826f4b8)
+2023-04-22T13:30:43.7990729-04:00  [INF] Now listening on: "http://localhost:5276" (d826f4b8)
+2023-04-22T13:30:43.8015109-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-22T13:30:43.8016678-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2023-04-22T13:30:43.8016875-04:00  [INF] Content root path: "C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter" (cc26f24e)
+2023-04-22T13:30:44.8040621-04:00 0HMQ3AT6JD7KI:00000001 [INF] Request starting HTTP/2 GET https://localhost:7276/ - - (ca22a1cb)
+2023-04-22T13:30:44.8671043-04:00 0HMQ3AT6JD7KI:00000001 [INF] Executing endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:30:44.8933101-04:00 0HMQ3AT6JD7KI:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManagerStarter.Controllers.HomeController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:30:44.9031779-04:00 0HMQ3AT6JD7KI:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:30:45.0184462-04:00 0HMQ3AT6JD7KI:00000001 [INF] Executed ViewResult - view "Index" executed in 115.7565ms. (f66409e9)
+2023-04-22T13:30:45.0221684-04:00 0HMQ3AT6JD7KI:00000001 [INF] Executed action "ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)" in 128.3226ms (afa2e885)
+2023-04-22T13:30:45.0225950-04:00 0HMQ3AT6JD7KI:00000001 [INF] Executed endpoint '"ContactManagerStarter.Controllers.HomeController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:30:45.0501618-04:00 0HMQ3AT6JD7KI:00000001 [INF] Request finished HTTP/2 GET https://localhost:7276/ - - - 200 - text/html;+charset=utf-8 248.8039ms (791a596a)
+2023-04-22T13:30:45.0838193-04:00 0HMQ3AT6JD7KI:00000003 [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:30:45.0971679-04:00 0HMQ3AT6JD7KI:00000003 [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 13.6848ms (791a596a)
+2023-04-22T13:30:45.1174602-04:00 0HMQ3AT6JD7KI:00000005 [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:30:45.1745549-04:00 0HMQ3AT6JD7KI:00000005 [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.0153ms (791a596a)
+2023-04-22T13:30:46.4029278-04:00 0HMQ3AT6JD7KI:00000007 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts - - (ca22a1cb)
+2023-04-22T13:30:46.4067263-04:00 0HMQ3AT6JD7KI:00000007 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:30:46.4086656-04:00 0HMQ3AT6JD7KI:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:30:46.5383410-04:00 0HMQ3AT6JD7KI:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2023-04-22T13:30:46.5501807-04:00 0HMQ3AT6JD7KI:00000007 [INF] Executed ViewResult - view "Index" executed in 12.4106ms. (f66409e9)
+2023-04-22T13:30:46.5503788-04:00 0HMQ3AT6JD7KI:00000007 [INF] Executed action "ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)" in 141.6714ms (afa2e885)
+2023-04-22T13:30:46.5504059-04:00 0HMQ3AT6JD7KI:00000007 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.Index (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:30:46.5526660-04:00 0HMQ3AT6JD7KI:00000007 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts - - - 200 - text/html;+charset=utf-8 149.7703ms (791a596a)
+2023-04-22T13:30:46.5655927-04:00 0HMQ3AT6JD7KI:00000009 [INF] Request starting HTTP/2 GET https://localhost:7276/js/ContactTable.js - - (ca22a1cb)
+2023-04-22T13:30:46.5686097-04:00 0HMQ3AT6JD7KI:0000000B [INF] Request starting HTTP/2 GET https://localhost:7276/_vs/browserLink - - (ca22a1cb)
+2023-04-22T13:30:46.5710478-04:00 0HMQ3AT6JD7KI:0000000D [INF] Request starting HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2023-04-22T13:30:46.5737104-04:00 0HMQ3AT6JD7KI:0000000D [INF] Request finished HTTP/2 GET https://localhost:7276/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.5618ms (791a596a)
+2023-04-22T13:30:46.6106972-04:00 0HMQ3AT6JD7KI:0000000B [INF] Request finished HTTP/2 GET https://localhost:7276/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.1201ms (791a596a)
+2023-04-22T13:30:46.6319904-04:00 0HMQ3AT6JD7KI:00000009 [INF] Sending file. Request path: '"/js/ContactTable.js"'. Physical path: '"C:\Users\maria\Source\Repos\contact-manager-starter\ContactManagerStarter\wwwroot\js\ContactTable.js"' (27b0a520)
+2023-04-22T13:30:46.6321525-04:00 0HMQ3AT6JD7KI:00000009 [INF] Request finished HTTP/2 GET https://localhost:7276/js/ContactTable.js - - - 200 9383 text/javascript 66.5523ms (791a596a)
+2023-04-22T13:30:46.6450070-04:00 0HMQ3AT6JD7KI:0000000F [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:30:46.6464668-04:00 0HMQ3AT6JD7KI:0000000F [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:30:46.6469963-04:00 0HMQ3AT6JD7KI:00000011 [INF] Request starting HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 (ca22a1cb)
+2023-04-22T13:30:46.6472689-04:00 0HMQ3AT6JD7KI:00000011 [INF] Executing endpoint '"/contacthub/negotiate"' (500cc934)
+2023-04-22T13:30:46.6553431-04:00 0HMQ3AT6JD7KI:0000000F [INF] Route matched with "{action = \"GetContacts\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContacts()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:30:46.6573189-04:00 0HMQ3AT6JD7KI:00000011 [INF] Executed endpoint '"/contacthub/negotiate"' (99874f2b)
+2023-04-22T13:30:46.6574147-04:00 0HMQ3AT6JD7KI:00000011 [INF] Request finished HTTP/2 POST https://localhost:7276/contactHub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 10.4247ms (791a596a)
+2023-04-22T13:30:46.6702216-04:00 0HMQ3AT6JD7KI:00000013 [INF] Request starting HTTP/2 CONNECT https://localhost:7276/contactHub?id=ch-uEFLjs3pk5kjjHF2KuQ - - (ca22a1cb)
+2023-04-22T13:30:46.6704207-04:00 0HMQ3AT6JD7KI:00000013 [INF] Executing endpoint '"/contacthub"' (500cc934)
+2023-04-22T13:30:47.7552077-04:00 0HMQ3AT6JD7KI:0000000F [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='600']"
+""SELECT [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type]
+FROM [Contacts] AS [c]
+LEFT JOIN [EmailAddresses] AS [e] ON [c].[Id] = [e].[ContactId]
+ORDER BY [c].[FirstName], [c].[Id]" (0723d8ff)
+2023-04-22T13:30:47.8259192-04:00 0HMQ3AT6JD7KI:0000000F [INF] Executing PartialViewResult, running view "_ContactTable". (1d3d4b21)
+2023-04-22T13:30:47.8855186-04:00 0HMQ3AT6JD7KI:0000000F [INF] Executed PartialViewResult - view "_ContactTable" executed in 60.146ms. (6f83ade2)
+2023-04-22T13:30:47.8856201-04:00 0HMQ3AT6JD7KI:0000000F [INF] Executed action "ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)" in 1230.2077ms (afa2e885)
+2023-04-22T13:30:47.8856583-04:00 0HMQ3AT6JD7KI:0000000F [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.GetContacts (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:30:47.8904324-04:00 0HMQ3AT6JD7KI:0000000F [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/GetContacts application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 1245.4039ms (791a596a)
+2023-04-22T13:30:49.1901181-04:00 0HMQ3AT6JD7KI:00000015 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:30:49.1917341-04:00 0HMQ3AT6JD7KI:00000015 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:30:49.2019750-04:00 0HMQ3AT6JD7KI:00000015 [INF] Route matched with "{action = \"EditContact\", controller = \"Contacts\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditContact(System.Guid)" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:30:49.2431623-04:00 0HMQ3AT6JD7KI:00000015 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. (4c53259e)
+2023-04-22T13:30:49.2953796-04:00 0HMQ3AT6JD7KI:00000015 [INF] Executed DbCommand ("39"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='600']"
+""SELECT [t].[Id], [t].[DOB], [t].[FirstName], [t].[LastName], [t].[Title], [e].[Id], [e].[ContactId], [e].[Email], [e].[IsPrimary], [e].[Type], [a].[Id], [a].[City], [a].[ContactId], [a].[State], [a].[Street1], [a].[Street2], [a].[Type], [a].[Zip]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DOB], [c].[FirstName], [c].[LastName], [c].[Title]
+    FROM [Contacts] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [EmailAddresses] AS [e] ON [t].[Id] = [e].[ContactId]
+LEFT JOIN [Addresses] AS [a] ON [t].[Id] = [a].[ContactId]
+ORDER BY [t].[Id], [e].[Id]" (0723d8ff)
+2023-04-22T13:30:49.3018042-04:00 0HMQ3AT6JD7KI:00000015 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:30:49.3583705-04:00 0HMQ3AT6JD7KI:00000015 [INF] Executed PartialViewResult - view "_EditContact" executed in 57.2972ms. (6f83ade2)
+2023-04-22T13:30:49.3584480-04:00 0HMQ3AT6JD7KI:00000015 [INF] Executed action "ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)" in 156.4374ms (afa2e885)
+2023-04-22T13:30:49.3584727-04:00 0HMQ3AT6JD7KI:00000015 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.EditContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:30:49.3587535-04:00 0HMQ3AT6JD7KI:00000015 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/EditContact?Id=930d4f10-9daf-4582-b4bb-cb9abfd382b3 application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 168.6369ms (791a596a)
+2023-04-22T13:31:19.8180032-04:00 0HMQ3AT6JD7KI:00000017 [INF] Request starting HTTP/2 GET https://localhost:7276/Contacts/NewContact application/json;+charset=utf-8 - (ca22a1cb)
+2023-04-22T13:31:19.8181424-04:00 0HMQ3AT6JD7KI:00000017 [INF] Executing endpoint '"ContactManager.Controllers.ContactsController.NewContact (ContactManagerStarter)"' (500cc934)
+2023-04-22T13:31:19.8189597-04:00 0HMQ3AT6JD7KI:00000017 [INF] Route matched with "{action = \"NewContact\", controller = \"Contacts\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult NewContact()" on controller "ContactManager.Controllers.ContactsController" ("ContactManagerStarter"). (122b2fdf)
+2023-04-22T13:31:19.8198274-04:00 0HMQ3AT6JD7KI:00000017 [INF] Executing PartialViewResult, running view "_EditContact". (1d3d4b21)
+2023-04-22T13:31:19.8223774-04:00 0HMQ3AT6JD7KI:00000017 [INF] Executed PartialViewResult - view "_EditContact" executed in 2.7521ms. (6f83ade2)
+2023-04-22T13:31:19.8233738-04:00 0HMQ3AT6JD7KI:00000017 [INF] Executed action "ContactManager.Controllers.ContactsController.NewContact (ContactManagerStarter)" in 4.2282ms (afa2e885)
+2023-04-22T13:31:19.8234438-04:00 0HMQ3AT6JD7KI:00000017 [INF] Executed endpoint '"ContactManager.Controllers.ContactsController.NewContact (ContactManagerStarter)"' (99874f2b)
+2023-04-22T13:31:19.8235811-04:00 0HMQ3AT6JD7KI:00000017 [INF] Request finished HTTP/2 GET https://localhost:7276/Contacts/NewContact application/json;+charset=utf-8 - - 200 - text/html;+charset=utf-8 5.5585ms (791a596a)
+2023-04-22T13:32:23.7893027-04:00 0HMQ3AT6JD7KI:00000013 [INF] Executed endpoint '"/contacthub"' (99874f2b)
+2023-04-22T13:32:23.7894986-04:00 0HMQ3AT6JD7KI:00000013 [INF] Request finished HTTP/2 CONNECT https://localhost:7276/contactHub?id=ch-uEFLjs3pk5kjjHF2KuQ - - - 200 - - 97119.2540ms (791a596a)

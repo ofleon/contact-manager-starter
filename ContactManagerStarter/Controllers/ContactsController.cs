@@ -1,46 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ContactManager.Data;
-using ContactManager.Hubs;
+﻿using ContactManager.Hubs;
 using ContactManager.Models;
+using ContactManagerStarter.Controllers;
+using ContactManagerStarter.Models;
+using ContactManagerStarter.Provider.Domain.Entities;
+using ContactManagerStarter.Provider.Domain.Repositories;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using Microsoft.EntityFrameworkCore;
-using MailKit;
 using MimeKit;
-using MailKit.Net.Smtp;
 
 namespace ContactManager.Controllers
 {
     public class ContactsController : Controller
     {
-        private readonly ApplicationContext _context;
+        private readonly IContactManagerRepository _context;
         private readonly IHubContext<ContactHub> _hubContext;
+        private readonly ILogger _logger;
 
-        public ContactsController(ApplicationContext context, IHubContext<ContactHub> hubContext)
+        public ContactsController(IContactManagerRepository context, ILogger<ContactsController> logger, IHubContext<ContactHub> hubContext)
         {
             _context = context;
+            _logger = logger;
             _hubContext = hubContext;
         }
 
         public async Task<IActionResult> DeleteContact(Guid id)
         {
-            var contactToDelete = await _context.Contacts
-                .Include(x => x.EmailAddresses)
-                .FirstOrDefaultAsync(x => x.Id == id);
+            var contactToDelete = await _context.GetContactByIdAsync(id);
 
-            if (contactToDelete == null)
+            if (contactToDelete is null) return BadRequest();
+
+            try
             {
-                return BadRequest();
+                await _context.DeleteAsync(contactToDelete);
             }
-
-            _context.EmailAddresses.RemoveRange(contactToDelete.EmailAddresses);
-            _context.Contacts.Remove(contactToDelete);
-
-            await _context.SaveChangesAsync();
-
+            catch (Exception ex)
+            {
+                _logger.LogInformation($"Contact {id} was deleted sucessfully");
+                //TO-DO: Implement error handler controller to catch the exceptions (404, 503, 500, etc..)
+            }
+            
+            
             await _hubContext.Clients.All.SendAsync("Update");
 
             return Ok();
@@ -48,15 +48,9 @@ namespace ContactManager.Controllers
 
         public async Task<IActionResult> EditContact(Guid id)
         {
-            var contact = await _context.Contacts
-                .Include(x => x.EmailAddresses)
-                .Include(x => x.Addresses)
-                .FirstOrDefaultAsync(x => x.Id == id);
+            var contact = await _context.GetContactByIdAsync(id);
 
-            if (contact == null)
-            {
-                return NotFound();
-            }
+            if (contact is null) return NotFound();
 
             var viewModel = new EditContactViewModel
             {
@@ -74,17 +68,28 @@ namespace ContactManager.Controllers
 
         public async Task<IActionResult> GetContacts()
         {
-            var contactList = await _context.Contacts
-                .OrderBy(x => x.FirstName)
-                .ToListAsync();
+            var contactList = await _context.GetAsync();
 
-            return PartialView("_ContactTable", new ContactViewModel { Contacts = contactList });
+            var contactViewList = contactList.Select(x => new ContactDto
+            {
+                Id = x.Id, 
+                Title = x.Title,
+                FirstName = x.FirstName,
+                LastName = x.LastName,
+                DOB = x.DOB,
+                Email = x.EmailAddresses.Count != 0 ?
+                    x.EmailAddresses.Any(y => y.IsPrimary == true) ? x.EmailAddresses.Where(x => x.IsPrimary).Select(x => x.Email).FirstOrDefault() 
+                    : x.EmailAddresses.Select(x => x.Email).FirstOrDefault()
+                    : null
+            });
+
+            return PartialView("_ContactTable", new ContactViewModel { Contacts = contactViewList });
         }
 
         public IActionResult Index()
-            {
-                return View();
-            }
+        {
+            return View();
+        }
 
         public IActionResult NewContact()
         {
@@ -92,19 +97,30 @@ namespace ContactManager.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SaveContact([FromBody]SaveContactViewModel model)
+        public async Task<IActionResult> SaveContact([FromBody] SaveContactViewModel model)
         {
             var contact = model.ContactId == Guid.Empty
                 ? new Contact { Title = model.Title, FirstName = model.FirstName, LastName = model.LastName, DOB = model.DOB }
-                : await _context.Contacts.Include(x => x.EmailAddresses).Include(x => x.Addresses).FirstOrDefaultAsync(x => x.Id == model.ContactId);
+                : await _context.GetContactByIdAsync(model.ContactId);
 
-            if (contact == null)
+            if (contact is null) return NotFound();
+
+            //I think this not the best why to handle this
+            // TO-DO: We can check directly every record on the Db to check if they need to be removed or updated
+            // we can add a new Dictionary and play with it
+            try
             {
-                return NotFound();
-            }
+                if (contact.EmailAddresses.Any())
+                    await _context.DeleteEmailAddressesAsync(contact.EmailAddresses);
 
-            _context.EmailAddresses.RemoveRange(contact.EmailAddresses);
-            _context.Addresses.RemoveRange(contact.Addresses);
+                if (contact.Addresses.Any())
+                    await _context.DeleteAddressesAsync(contact.Addresses);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Something happened when on the delete transaction");
+                //TO-DO: Implement error handler controller to catch the exceptions (404, 503, 500, etc..)
+            }
 
 
             foreach (var email in model.Emails)
@@ -113,6 +129,7 @@ namespace ContactManager.Controllers
                 {
                     Type = email.Type,
                     Email = email.Email,
+                    IsPrimary = email.IsPrimary,
                     Contact = contact
                 });
             }
@@ -135,17 +152,24 @@ namespace ContactManager.Controllers
             contact.LastName = model.LastName;
             contact.DOB = model.DOB;
 
-            if (model.ContactId == Guid.Empty)
+            try
             {
-                await _context.Contacts.AddAsync(contact);
+                if (model.ContactId == Guid.Empty)
+                {
+                    await _context.AddAsync(contact);
+                }
+                else
+                {
+                    await _context.UpdateAsync(contact);
+                }
+
+                _logger.LogInformation($"Contact updated sucessfully");
             }
-            else
+            catch (Exception ex)
             {
-                _context.Contacts.Update(contact);
+                _logger.LogError($"Something Ocurr when we trying to update/add the contact");
             }
-
-
-            await _context.SaveChangesAsync();
+            
             await _hubContext.Clients.All.SendAsync("Update");
 
             SendEmailNotification(contact.Id);
@@ -153,7 +177,7 @@ namespace ContactManager.Controllers
             return Ok();
         }
 
-        private void SendEmailNotification(Guid contactId)
+        private static void SendEmailNotification(Guid contactId)
         {
             var message = new MimeMessage();
 
@@ -163,20 +187,17 @@ namespace ContactManager.Controllers
 
             message.Body = new TextPart("plain")
             {
-                Text = "Contact with id:" + contactId.ToString() +" was updated"
+                Text = "Contact with id:" + contactId.ToString() + " was updated"
             };
 
-            using (var client = new SmtpClient())
-            {
-                // For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
-                client.ServerCertificateValidationCallback = (s, c, h, e) => true;
+            using var client = new SmtpClient();
+            // For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
+            client.ServerCertificateValidationCallback = (s, c, h, e) => true;
 
-                client.Connect("127.0.0.1", 25, false);
+            client.Connect("127.0.0.1", 25, false);
 
-                client.Send(message);
-                client.Disconnect(true);
-            }
-
+            client.Send(message);
+            client.Disconnect(true);
         }
 
     }

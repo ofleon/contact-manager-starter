@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ContactManager.Data;
+﻿using ContactManagerStarter.Models;
 
 namespace ContactManager.Models
 {
     public class ContactViewModel
     {
-        public List<Contact> Contacts { get; set; }
+        public IEnumerable<ContactDto> Contacts { get; set; }
     }
 }

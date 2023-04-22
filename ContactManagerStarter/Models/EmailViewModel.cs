@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ContactManager.Data;
+﻿using ContactManagerStarter.Provider.Domain.Entities;
 
 namespace ContactManager.Models
 {
@@ -10,5 +6,6 @@ namespace ContactManager.Models
     {
         public EmailType Type { get; set; }
         public string Email { get; set; }
+        public bool IsPrimary { get; set; }
     }
 }

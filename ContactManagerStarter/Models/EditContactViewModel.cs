@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ContactManager.Data;
+﻿using ContactManagerStarter.Provider.Domain.Entities;
 
 namespace ContactManager.Models
 {
@@ -13,7 +9,7 @@ namespace ContactManager.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DOB { get; set; }
-        public List<EmailAddress> EmailAddresses { get; set; }
-        public List<Address> Addresses { get; set; }
+        public IEnumerable<EmailAddress> EmailAddresses { get; set; }
+        public IEnumerable<Address> Addresses { get; set; }
     }
 }

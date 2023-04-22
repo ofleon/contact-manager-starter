@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace ContactManagerStarter.Migrations
+namespace ContactManagerStarter.Provider.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class seed : Migration
+    public partial class ContactInitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

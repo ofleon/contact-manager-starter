@@ -1,7 +1,9 @@
-using ContactManager.Data;
 using ContactManager.Hubs;
+using ContactManagerStarter.Extensions;
+//using ContactManagerStarter.Extensions;
+using ContactManagerStarter.Provider.Domain.Repositories;
+using ContactManagerStarter.Provider.Infrastructure.Services;
 using Newtonsoft.Json;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,12 +16,20 @@ builder.Services.AddRazorPages()
         options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
     });
 
-builder.Services.AddDbContext<ApplicationContext>(options =>
-                options
-                    .UseSqlServer(builder.Configuration.GetConnectionString("ContactDb"),
-                        opts => opts.CommandTimeout(600)));
+
+// Add services to the container.
+builder.Services.AddContactManagerDb(builder.Configuration);
+builder.Services.AddScoped<IContactManagerRepository, ContactManagerRepository>();
 
 builder.Services.AddSignalR();
+
+// add logging
+builder.Services.AddLogging(logging =>
+{
+    logging.ClearProviders(); // optional (clear providers already added)
+    logging.AddConsole();
+    logging.AddFile("ContactLogs/ContactManagerLog-{Date}.txt");
+});
 
 var app = builder.Build();
 
@@ -31,11 +41,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var dataContext = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
-    dataContext.Database.Migrate();
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var dataContext = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
+//    dataContext.Database.Migrate();
+//}
+
+//app.EnsureContactDbIsCreated();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
