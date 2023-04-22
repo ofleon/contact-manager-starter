@@ -1,3 +1,4 @@
 .vs/
 ContactManagerStarter/bin/
 ContactManagerStarter/obj/
+/ContactManagerStarter.Provider/Infrastructure/20230422023353_ContactInitialMigrationg.Designer.cs
